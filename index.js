@@ -1,6 +1,7 @@
 const bodyParser = require('body-parser')
 const express = require('express')
 const _ = require('lodash')
+const debug = require('debug')('light-api:server')
 
 const app = express()
 
@@ -167,5 +168,5 @@ app.patch('/api/v1/device/:id', (req, res) => {
 })
 
 app.listen(3000, () => {
-	console.log('API listening on port 3000!')
+	debug('API listening on port 3000!')
 })

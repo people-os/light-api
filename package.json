@@ -4,7 +4,7 @@
   "description": "A proxy API for a home automation light control system",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "DEBUG=express:*,light-api:* node index.js",
     "test": "eslint index.js && mocha test --exit"
   },
   "author": "",
