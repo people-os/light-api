@@ -17,9 +17,7 @@ All endpoints return JSON and will have one of the following top level keys:
 - `data` - The response data for the request
 - `errors` - An array of error objects
 
-### Device
-
-#### Get all devices
+### Get all devices
 
 ```
 GET /api/v1/device
@@ -34,7 +32,7 @@ fetch('http://localhost:3000/api/v1/device')
 	})
 ```
 
-#### Get a single device
+### Get a single device
 
 ```
 GET /api/v1/device/:id
@@ -49,7 +47,7 @@ fetch('http://localhost:3000/api/v1/device/3')
 	})
 ```
 
-#### Update a single device
+### Update a single device
 
 ```
 PATCH /api/v1/device/:id
