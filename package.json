@@ -1,0 +1,30 @@
+{
+  "name": "light-api",
+  "version": "1.0.0",
+  "description": "A proxy API for a home automation light control system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint index.js && mocha test --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsdoc": "^3.7.1",
+    "eslint-plugin-lodash": "^2.7.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0",
+    "node-fetch": "^2.1.2"
+  }
+}
