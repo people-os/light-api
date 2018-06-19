@@ -27,7 +27,7 @@ GET /api/v1/device
 
 **Example:**
 
-```
+```js
 fetch('http://localhost:3000/api/v1/device')
 	.then((response) => {
 		console.log(response.data)
@@ -42,7 +42,7 @@ GET /api/v1/device/:id
 
 **Example:**
 
-```
+```js
 fetch('http://localhost:3000/api/v1/device/3')
 	.then((response) => {
 		console.log(response.data)
@@ -57,7 +57,7 @@ PATCH /api/v1/device/:id
 
 **Example:**
 
-```
+```js
 fetch('/api/v1/device/3', {
     method: 'PATCH',
 		headers: {
