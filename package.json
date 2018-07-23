@@ -1,10 +1,10 @@
 {
   "name": "light-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A proxy API for a home automation light control system",
   "main": "index.js",
   "scripts": {
-    "start": "DEBUG=express:*,light-api:* node index.js",
+    "start": "node index.js",
     "test": "eslint index.js && mocha test --exit"
   },
   "author": "",
