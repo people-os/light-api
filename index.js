@@ -1,3 +1,6 @@
+// Set DEBUG var here for compatibility with Windows shells
+process.env.DEBUG = 'express:*,light-api:*'
+
 const bodyParser = require('body-parser')
 const express = require('express')
 const _ = require('lodash')
